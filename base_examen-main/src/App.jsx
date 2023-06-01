@@ -11,8 +11,12 @@ function App() {
   function formHandler(formData) {
     
     //console.log(formData)
-    setData([...data, formData])
-
+    //setData([...data, formData])
+    setData({
+      name: formData.name,
+      lastName: formData.lastName,
+      dni: formData.dni
+    })
     setIsAfterFirstSubmit(true)
   }
   return (

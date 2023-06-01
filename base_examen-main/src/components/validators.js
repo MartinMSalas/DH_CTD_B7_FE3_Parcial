@@ -14,7 +14,7 @@ export function checkLastName(lastName) {
   const errors = []
 
   if (lastName.length < 6) {
-    errors.push("El apellido debe tener al menos 6 caracteres porque asi lo pide el profe")
+    errors.push("Requiere 6 caracteres el enunciado")
   }
   if (lastName.match(/[0-9]/)) {
     errors.push("El apellido no puede contener números")

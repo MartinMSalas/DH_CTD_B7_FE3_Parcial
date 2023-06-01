@@ -1,7 +1,7 @@
 
 import { useRef, useState } from "react"
 import { checkName,checkLastName,checkDni} from "./validators"
-import Button from "./Button";
+import {Button2} from "./Button2";
 
 export function FormBasico3({  formHandler}) {
 
@@ -85,9 +85,9 @@ export function FormBasico3({  formHandler}) {
         
           
           <div className="m-16 md:grid-cols-2 md:gap-6">
-            <Button className="btn  " type="submit">
+            <Button2 className="btn  " type="submit">
               Validar los datos ingresados
-            </Button>
+            </Button2>
           </div>
         </form>
       </div>
